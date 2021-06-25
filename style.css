@@ -183,6 +183,7 @@ p {
   background-color:rgb(189, 87, 87) ;
   color: white!important;
   text-align: center;
+  margin-left: 30px;
 
 }
 
@@ -280,13 +281,12 @@ p {
  border-radius: 10px;
 }
 
-
-@media screen and (min-width: 1199px) {
-  .navbar-brand {
-    font-size: 2em;
-  }
-    }
-
-  .logo {
+.logo {
     margin:10px;
   }
+
+@media screen and (min-width:1415px) {
+  .nav-item{
+     font-size:1.2em;
+    }
+      }
