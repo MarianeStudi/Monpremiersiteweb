@@ -3,24 +3,18 @@ body {
   background-size: cover;
   font-family: 'Indie Flower', cursive;
    margin: 0px;
-  
-  
- 
 }
 
 .navbar {
   border-radius: 10px;
   padding-top: 0px;
   font-size: 0.9em;
-  
-
 }
 
 
 .navbar-brand {
   font-weight: 900;
   font-size: 2em;
- 
 }
 
 
@@ -29,8 +23,7 @@ li  {
   margin-left: 20px;
   padding: 10px;
   color:rgb(53, 48, 48);
-  font-weight: bold;
-  
+  font-weight: bold;  
 }
 
 .nav-link:hover {
@@ -42,11 +35,7 @@ font-size: 1.5em;
 .container {
   width:100vw;
   height:100vh;
-  margin: auto;
-  
-  
- 
- 
+  margin: auto; 
 }
 
 
@@ -56,29 +45,23 @@ font-size: 1.5em;
   border-radius: 10px;
   text-align: justify;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  padding: 30px;
- 
-  
-  
+  padding: 30px;  
 }
 
 
 .bold {
   font-weight: bold;
   font-size: 1.1em;
-  color: black;
-  
+  color: black;  
 }
 
 .underline {
   font-weight: 300;
-
 }
 
 iframe {
   border-radius: 10px 10px 0px 0px;
-  border: white 2px solid;
-  
+  border: white 2px solid;  
 }
 
 .textflash {
@@ -90,24 +73,16 @@ iframe {
   border-radius: 10px;
   height: auto;
   padding: 30px;
-
-
 }
 
 .row {
- 
  --bs-gutter-x: 0px;
-
-  }
-
-
+}
 
 
 h1 {
   font-size: 2em;
   padding: 10px;
-
-
 }
 
 
@@ -115,18 +90,16 @@ h2 {
   font-size: 2em;
   color: rgba(144, 74, 49, 0.6);
   padding: 10px;
-
 }
 
 h3 {
-color: rgba(144, 74, 49, 0.6);
-margin-top: 20px;
-padding: 10px;
+  color: rgba(144, 74, 49, 0.6);
+  margin-top: 20px;
+  padding: 10px;
 
 }
 
 p {
-  
   margin-top: 2px;
   margin-bottom: 10px;
 }
@@ -141,18 +114,12 @@ p {
   border: solid 2px white;
   text-align: center;
   margin: 0px;
-
-
 }
-  
 
 .img {
   border-radius:50% ;
   border: 2px white solid;
-
 }
-
-
 
 .footer {
   background-color: white;
@@ -161,7 +128,6 @@ p {
   border-radius: 10px ;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    margin: auto;
-
 }
 
 
@@ -171,23 +137,20 @@ p {
   border-radius: 50%;
   color: rgba(255, 255, 255, 0.7);
   margin: 10px;
-
 }
 
 .coralguardian:hover {
   color:rgb(189, 87, 87);
   background-color: rgba(255, 255, 255, 0.7);
-  border:rgb(189, 87, 87) solid 2px;
-  
+  border:rgb(189, 87, 87) solid 2px; 
 }
+
 .coralguardian {
   border: white solid 2px;
   font-size: 1.3em;
   color: rgba(255, 255, 255, 0.7);
   background-color: rgb(189, 87, 87);
   border-radius: 10px;
- 
- 
 }
 
 .btnLink {
@@ -215,9 +178,7 @@ p {
   text-align: justify;
   background-color: rgba(255, 255, 255, 0.8);
   color: rgb(53, 48, 48);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  
-  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
 }
 
 .nousRejoindre {
@@ -264,7 +225,6 @@ p {
 .coralguardian {
   font-size: 20px;
 }
-  
   }
 
 
@@ -276,16 +236,12 @@ p {
   color: rgb(53, 48, 48);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-align: justify;
-
-  
 }
   
 .img41,.img42,.img43,.img44,.img45,.img46 {
   border-radius: 50%;
-  border: 10px white solid;
-  
+  border: 10px white solid;  
 }
-
 
 .row {
   --bs-gutter-x: 0px;
@@ -302,7 +258,6 @@ p {
   height:150px;
   width: 150px;
   }
-    
     }
 
 .linkgive {
@@ -317,5 +272,4 @@ p {
 
 .bi {
   color:rgb(144, 74, 49 ); 
- 
 }
