@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sauvons le corail</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="row">
+        <nav class="navbar navbar-light bg-light navbar-expand-xl">
+          <img src="97989-image2_450x450.png" height="40px" widht="40px" alt="logo">
+          <a href="index.html#" class="navbar-brand">Sauvons le corail</a>
+      
+          <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+         </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="index2.html" class="nav-link ">Qui sommes nous ?</a>
+              </li>
+              <li class="nav-item">
+              <a href="index.html#leCorail" class="nav-link ">Le corail</a>
+              </li>
+              <li class="nav-item">
+                <a href="index.html#sonUtilite" class="nav-link ">Son utilité</a>
+              </li>
+              <li class="nav-item">
+              <a href="index.html#lesMenaces" class="nav-link">Les menaces</a>
+              </li>
+              <li class="nav-item">
+                <a href="index.html#commentLeSauver" class="nav-link ">Comment le sauver ?</a>
+              </li>
+              <li class="nav-item">
+                <a href="index4.html" class="nav-link  ">Nos actions</a>
+              </li>
+              <li class="nav-item">
+                <a href="index3.html" class="nav-link nousRejoindre">Nous rejoindre</a>
+            </li>
+            </ul>
+          </div>
+        </nav>
+      </div> 
+    </header>
+    <main>
+      <div class="row">
+        <div class="col benevoles">
+          <h3>Devenez bénévole</h3>
+            <p>Sauvons le corail recherche des bénévoles pour participer activement à la vie de l’association. Le casting pour la saison 2021 est ouvert 
+              Nous sommes une petite équipe et avons de nombreux défis à relever, c’est pourquoi nous avons besoin de vos talents. Nous vous proposons différentes missions en fonction de vos envies et disponibilités.
+              Pour nous rejoindre, remplissez le formulaire ci-contre.
+            </p>
+        </div>
+      </div>
+      <div class="row inscription">
+        <form action="" method="post">
+          <div class="col form-group">
+            <label for="lastname" class="form-label">Nom</label>
+            <input type="lastname" class="form-control" id="lastname" placeholder="Non">
+          </div>
+          <div class="col form-group">
+            <label for="firstname" class="form-label">Prénom</label>
+            <input type="firstname" class="form-control" id="firstname" placeholder="Prénom">
+          </div>
+          <div class="col form-group">
+            <label for="birthday" class="form-label">Date de naissance</label>
+            <input type="date" class="form-control" id="birthday" placeholder="Date de naissance">
+          </div>
+          <div class="col form-group">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Email">
+          </div>
+          <div class="col form-group">
+            <label for="ville" class="form-label">Ville</label>
+            <input type="text" class="form-control" id="ville" placeholder="Ville">
+          </div>
+          <br/>
+          <div class="col  form-check">
+            <div class="fomrComment question">Comment avez-vous connu sauvons le corail ?</div>
+              <input class="form-check-input" type="radio" name="comment" id="comment">
+              <label class="comment" for="Par le site internet sauvonslecorail.org">
+              Par le site internet sauvonslecorail.org
+              </label>
+          </div>
+          <div class="col  form-check">
+            <input class="form-check-input" type="radio" name="comment" id="comment">
+            <label class="comment" for="Par les réseaux sociaux">
+             Par les réseaux sociaux
+            </label>
+          </div>
+          <div class="col  form-check">
+            <input class="form-check-input" type="radio" name="comment" id="comment">
+            <label class="comment" for="Par la presse">
+             Par la presse
+            </label>
+          </div>
+          <div class="col  form-check">
+            <input class="form-check-input" type="radio" name="comment" id="comment">
+            <label class="comment" for="Par une connaissance">
+             Par une connaissance
+            </label>
+          </div>
+          <br/>
+          <div class="col  form-group" >
+            <label for="profession" class="form-label question">Quelle est votre profession?</label>
+            <input type="text" class="form-control" id="profession" placeholder="Profession">
+          </div>
+          <br/>
+          <div class="form-group question">
+            <label for="pourquoi">Pourquoi souhaitez-vous devenir bénévole ?</label>
+            <textarea class="form-control" id="pourquoi"></textarea>
+          </div>
+          <div class="form-check">
+            <p class="question">Pour quel type de mission(s) souhaiteriez-vous nous-aider ?</p>
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" >
+            <label class="form-check-label" for="flexCheckDisabled">
+            Biologie marine
+            </label>
+          </div>
+            <div class="form-check">
+            <input class="form-check-input" type="checkbox"  id="mission" >
+            <label class="form-check-label" for="mission">
+            Sensibilisation
+            </label>
+          </div>
+            
+          
+
+          <button type="submit" class="btn btn-info buttonForm">Envoyer</button>
+          </form>
+        
+
+      </div>
+      
+    </main>
+
+   
+
+    <footer>
+      <div class="row footer">
+        <form action="" method="post">
+        <div class="col-xs-6 col-ml-12 form-group">
+          <label for="email" class="form-label">S'inscrire à la newsletter</label>
+          <input type="email" class="form-control" id="email" placeholder="Adresse e-mail">
+        </div>
+        <button type="submit" class="btn btn-info buttonForm">S'inscrire</button>
+        </form>
+        <div class="col-xs-6 col-ml-12">
+          © Sauvons le corail 2021 - Mentions légales</div>
+      </div>
+    </footer>
+    
+    
+  
+
+
+
+
+  
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+  </div>
+  </body>
+  </html>
