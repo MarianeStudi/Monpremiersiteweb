@@ -11,6 +11,10 @@ body {
 
 }
 
+.navbar-nav {
+  margin: 20px;
+  align-items: center;
+}
 
 .navbar-brand {
   font-weight: 900;
@@ -184,7 +188,7 @@ p {
   background-color:rgb(189, 87, 87) ;
   color: white!important;
   text-align: center;
-  margin-left: 30px;
+  margin: 20px;
 
 }
 
