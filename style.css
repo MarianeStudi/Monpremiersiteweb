@@ -280,3 +280,7 @@ p {
 .imgmargin {
   margin-top: 20px;
 }
+
+.imgp2 {
+ border-radius: 10px;
+}
