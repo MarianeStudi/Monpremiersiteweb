@@ -273,3 +273,7 @@ p {
 .bi {
   color:rgb(144, 74, 49 ); 
 }
+
+.alignementtitre {
+  text-align: left;
+}
