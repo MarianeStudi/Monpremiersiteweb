@@ -23,8 +23,7 @@ body {
 li  {
   display: inline;
   color:rgb(53, 48, 48);
-  margin-left: 5px;
-  margin-right: 0px;
+  
 }
 
 .nav-link:hover {
