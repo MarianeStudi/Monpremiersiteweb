@@ -297,6 +297,13 @@ p {
      font-size:1.2em;
     }
       }
+
+@media screen and (max-width:1199px) {
+  .nav-item{
+     font-size:1.2em;
+    }
+      }
+      
 .lienAssos {
   text-align: justify;
 }
