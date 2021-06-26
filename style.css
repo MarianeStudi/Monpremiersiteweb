@@ -306,4 +306,13 @@ p {
       
 .lienAssos {
   text-align: justify;
+  color: rgb(144, 74, 49);
+}
+
+.lienAssos:hover {
+  color: rgb(189, 87, 87);
+}
+
+.lienAssos:visited {
+  color: darkcyan;
 }
