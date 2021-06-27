@@ -14,14 +14,11 @@ body {
 }
 
 .navbar {
-  padding-top: 0px;
   border-radius: 10px;
- 
-
+  padding-top: 0px!important;
 }
 
 .navbar-nav {
-  margin: 20px;
   align-items: center;
 }
 
@@ -31,12 +28,15 @@ body {
   color: rgb(144, 74, 49)!important;
 }
 
-
+.textflash1 {
+  margin-top: 100px;
+}
 
 li  {
   display: inline;
   color:rgb(53, 48, 48);
   font-size: 0.9em;
+  padding: 5px;
   
 }
 
@@ -77,7 +77,7 @@ iframe {
   text-align: center;
   font-weight: 900;
   font-size: 2em;
-  background-color: rgba(144, 74, 49, 0.4);
+  background-color: rgba(144, 74, 49, 0.5);
   border-radius: 10px;
   padding: 30px;
 }
