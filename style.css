@@ -316,3 +316,17 @@ p {
 .lienAssos:visited {
   color: darkcyan;
 }
+
+.animation {
+  animation:  2s linear infinite alternate animation ;
+}
+
+
+@keyframes animation {
+  from {
+    transform: translateX—(-30px);
+        }
+  to {
+    transform: translateX(30px);
+  }
+}
