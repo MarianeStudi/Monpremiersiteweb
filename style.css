@@ -6,10 +6,11 @@ body {
   
 }
 
-.navbar {
-  height: 70px;
-}
-
+@media screen and (min-width: 1200px) {
+  .navbar {
+    height: 70px;
+  }
+    }
 
 .navbar-nav {
   align-items: center;
@@ -17,10 +18,16 @@ body {
 
 .navbar-brand {
   font-weight: 900;
-  font-size: 3em;
+  font-size: 2em;
   color: rgb(144, 74, 49)!important;
   margin-right: 20px;
 }
+
+@media screen and (max-width: 349px) {
+  .navbar-brand {
+    font-size: 1em;
+  }
+    }
 
 li  {
   display: inline;
@@ -214,12 +221,6 @@ p {
 .coralguardian {
   font-size: 20px;
 }
-  }
-
-@media screen and (max-width: 445px) {
-.navbar-brand {
-  display: none;
- }
   }
 
 
