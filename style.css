@@ -1,9 +1,7 @@
 body {
   background-image: url(barriere_de_corail.webp);
   background-size: contain;
-  font-family: 'Indie Flower', cursive;
-  line-height: 1,3;
-  
+  font-family: 'Indie Flower', cursive; 
 }
 
 @media screen and (min-width: 1200px) {
@@ -31,10 +29,12 @@ body {
 
 li  {
   display: inline;
-  
-  
 }
 
+.nav-link {
+  color: rgb(144, 74, 49)!important;
+  font-weight: bolder;
+}
 
 .nav-link:hover {
 color: rgb(189, 87, 87)!important;
@@ -299,7 +299,7 @@ p {
 }
 
 .animation {
-  animation:  2s linear infinite alternate animation ;
+  animation:  1s linear infinite alternate animation ;
 }
 
 
@@ -319,7 +319,7 @@ header > .row > nav .active {
 }
 
 .svg {
-  margin: 4px;
+  margin: 7px;
 }
 
 .signature {
