@@ -148,17 +148,17 @@ p {
 }
 
 .coralguardian:hover {
-  color:rgb(189, 87, 87);
-  background-color: rgba(255, 255, 255, 0.7);
-  border:rgb(189, 87, 87) solid 2px; 
+  border: white solid 2px;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgb(189, 87, 87);
 }
 
 .coralguardian {
-  border: white solid 2px;
   font-size: 1.3em;
-  color: rgba(255, 255, 255, 0.7);
-  background-color: rgb(189, 87, 87);
   border-radius: 10px;
+  color:rgb(189, 87, 87);
+  background-color: rgba(255, 255, 255, 0.7);
+  border:rgb(189, 87, 87) solid 2px;
 }
 
 .btnLink {
