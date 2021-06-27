@@ -9,7 +9,6 @@ body {
 .container {
   width:100vw;
   height:100vh;
- 
 
 }
 
@@ -21,12 +20,14 @@ body {
 
 .navbar-nav {
   align-items: center;
+  font-size: 1.2em;
 }
 
 .navbar-brand {
   font-weight: 900;
-  font-size: 2em;
+  font-size: 3em;
   color: rgb(144, 74, 49)!important;
+  margin-right: 100px;
 }
 
 .textflash1 {
@@ -35,14 +36,18 @@ body {
 
 li  {
   display: inline;
-  color:rgb(53, 48, 48);
-  font-size: 0.9em;
-  padding: 5px;
+  padding: 10px;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
   
 }
 
 .nav-link:hover {
-color: rgb(189, 87, 87) !important ;
+color: rgb(189, 87, 87)!important;
 
 }
 
@@ -81,10 +86,6 @@ iframe {
   background-color: rgba(144, 74, 49, 0.5);
   border-radius: 10px;
   padding: 30px;
-}
-
-.row {
- --bs-gutter-x: 0px;
 }
 
 
@@ -191,14 +192,6 @@ p {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
 }
 
-.nousRejoindre {
-  font-weight: 900;
-  background-color:rgb(189, 87, 87) ;
-  color: white!important;
-  text-align: center;
-  margin: 20px;
-
-}
 
 .nousRejoindre:hover {
   background-color: white;
@@ -295,17 +288,6 @@ p {
     margin:10px;
   }
 
-@media screen and (min-width:1415px) {
-  .nav-item{
-     font-size:1.2em;
-    }
-      }
-
-@media screen and (max-width:1199px) {
-  .nav-item{
-     font-size:1.2em;
-    }
-      }
       
 .lienAssos {
   text-align: justify;
@@ -333,3 +315,9 @@ p {
     transform: translateX(30px);
   }
 }
+
+header > .row > nav .active {
+  color: darkcyan !important;
+  font-weight: bold;
+}
+
