@@ -75,26 +75,26 @@
         </div>
       </div>
       <div class="row inscription">
-        <form action="/fake-backend.php" method="post">
+        <form action="null" method="post">
           <div class="col form-group">
             <label for="lastname" class="form-label">Nom</label>
-            <input type="lastname" class="form-control" id="lastname" placeholder="Non">
+            <input type="lastname" class="form-control" id="lastname" placeholder="Non" required>
           </div>
           <div class="col form-group">
             <label for="firstname" class="form-label">Prénom</label>
-            <input type="firstname" class="form-control" id="firstname" placeholder="Prénom">
+            <input type="firstname" class="form-control" id="firstname" placeholder="Prénom" required>
           </div>
           <div class="col form-group">
             <label for="birthday" class="form-label">Date de naissance</label>
-            <input type="date" class="form-control" id="birthday" placeholder="Date de naissance">
+            <input type="date" class="form-control" id="birthday" placeholder="Date de naissance" required>
           </div>
           <div class="col form-group">
             <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" placeholder="Email">
+            <input type="email" class="form-control" id="email" placeholder="Email" required>
           </div>
           <div class="col form-group">
             <label for="ville" class="form-label">Ville</label>
-            <input type="text" class="form-control" id="ville" placeholder="Ville">
+            <input type="text" class="form-control" id="ville" placeholder="Ville" required>
           </div>
           <br/>
           <div class="col form-group">
@@ -125,23 +125,23 @@
           <br/>
           <div class="col  form-group" >
             <label for="profession" class="form-label question">Quelle est votre profession?</label>
-            <input type="text" class="form-control" id="profession" placeholder="Profession">
+            <input type="text" class="form-control" id="profession" placeholder="Profession" required>
           </div>
           <br/>
           <div class="form-group question">
             <label for="pourquoi">Pourquoi souhaitez-vous devenir bénévole ?</label>
-            <textarea class="form-control" id="pourquoi"></textarea>
+            <textarea class="form-control" id="pourquoi" required></textarea>
           </div>
           <br/>
           <div class="form-group">
             <p class="question">Pour quel type de mission(s) souhaiteriez-vous nous-aider ?</p>
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" >
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled">
             <label class="form-check-label" for="flexCheckDisabled">
             Biologie marine
             </label>
           </div>
             <div class="form-check">
-            <input class="form-check-input" type="checkbox"  id="mission" >
+            <input class="form-check-input" type="checkbox"  id="mission">
             <label class="form-check-label" for="mission">
             Sensibilisation
             </label>
@@ -159,7 +159,7 @@
 
     <footer>
       <div class="row footer">
-        <form action="/fake-backend.php" method="post">
+        <form action="null" method="post">
         <div class="col-sm-6 col-ml-12 form-group">
           <label for="email" class="form-label">S'inscrire à la newsletter</label>
           <input type="email" class="form-control" id="email" placeholder="Adresse e-mail">
