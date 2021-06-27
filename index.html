@@ -35,7 +35,7 @@
             </svg>
          </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav nav-justified w-100">
               <li class="nav-item">
               <a href="#leCorail" class="nav-link active" aria-current="true">Le corail</a>
               </li>
@@ -62,8 +62,10 @@
         </nav>
       </div>
     </header>
+  </div>
 
-    <main>
+  <main>
+    <div class="container-fluid">
       <!--Coral page--->
       <div class="row textflash textflash1">
         <h1 class="animation">  Aidez-nous à sauver le corail</h1>
@@ -85,8 +87,8 @@
           <p class="textiframe">Voici une petite video qui vous expliquera ce qu'est le corail.</p>
         </div>
       </div>
-      <div class="row textflash">    
-        <h6>Nous protégeons les écosystèmes coralliens grâce à l’implication
+      <div class="row">    
+        <h6 class="textflash">Nous protégeons les écosystèmes coralliens grâce à l’implication
           des populations locales et la sensibilisation du grand public.</h6>
       </div>
       <div class="row " id="sonUtilite">
@@ -109,8 +111,8 @@
           <p class="textiframe">Voici une petite video qui vous expliquera pourquoi le corail nous est essentiel.</p>
         </div>
       </div>
-      <div class="row  textflash">    
-        <h6>Les coraux qui s’assemblent pour former des récifs coralliens abritent 25% de la vie marine de notre planète. Mais si nous n’agissons pas d’urgence pour faire face au changement climatique, à la pollution, à la surpêche et aux autres menaces qui planent sur eux, ces magnifiques organismes où la vie prospère pourraient bel et bien disparaître.</h6>
+      <div class="row">    
+        <h6 class="textflash">Les coraux qui s’assemblent pour former des récifs coralliens abritent 25% de la vie marine de notre planète. Mais si nous n’agissons pas d’urgence pour faire face au changement climatique, à la pollution, à la surpêche et aux autres menaces qui planent sur eux, ces magnifiques organismes où la vie prospère pourraient bel et bien disparaître.</h6>
       </div>
       <div class="row" id="lesMenaces">
         <div class="col-sm-12 col-md-6 lesMenaces">
@@ -142,8 +144,8 @@
           <p class="textiframe">Voici une petite video qui vous expliquera pourquoi le réchauffement climatique est une menace pour le corail.</p>
         </div>
       </div>
-      <div class="row textflash">    
-        <h6>2°C est la limite à ne pas dépasser sous peine de condamner la totalité des récifs coraliens.</h6>
+      <div class="row">    
+        <h6 class="textflash">2°C est la limite à ne pas dépasser sous peine de condamner la totalité des récifs coraliens.</h6>
       </div>
       <div class="row " id="commentLeSauver">
         <div class="col-sm-12 col-md-6 commentLeSauver">
@@ -159,24 +161,27 @@
           </div>
           <p class="textiframe">Voici une petite video qui vous expliquera comment protéger le corail avec quelques gestes quotidiens.</p>
         </div>
-        <div class="row textflash">    
-          <h6>La grande barrière de corail est le seul organisme vivant visible depuis l'espace.</h6>
+        <div class="row">    
+          <h6 class="textflash">La grande barrière de corail est le seul organisme vivant visible depuis l'espace.</h6>
         </div>
       </div>
-    </main>
+    </div>
+  </main>
 
     <footer>
+      <div class="container-fluid">
       <!--Footer--->
-      <div class="row footer">
-        <form action="null" method="post">
-        <div class="col form-group">
-          <label for="email" class="form-label">S'inscrire à la newsletter</label>
-          <input type="email" class="form-control" id="email" placeholder="Adresse e-mail">
+        <div class="row footer">
+          <form action="null" method="post">
+          <div class="col form-group">
+            <label for="email" class="form-label">S'inscrire à la newsletter</label>
+            <input type="email" class="form-control" id="email" placeholder="Adresse e-mail">
+          </div>
+          <button type="submit" class="btn btn-info buttonForm">S'inscrire</button>
+          </form>
+          <div class="col">
+            © Sauvons le corail 2021 - Mentions légales</div>
         </div>
-        <button type="submit" class="btn btn-info buttonForm">S'inscrire</button>
-        </form>
-        <div class="col">
-          © Sauvons le corail 2021 - Mentions légales</div>
       </div>
     </footer>
 
@@ -204,6 +209,5 @@
     <!--Javascript--->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-  </div>
   </body>
   </html>

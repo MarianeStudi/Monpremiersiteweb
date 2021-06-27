@@ -13,13 +13,12 @@ body {
 }
 
 .navbar {
-  padding-top: 0px;
+  height: 70px;
  
 }
 
 .navbar-nav {
   align-items: center;
-  font-size: 1.1em;
 }
 
 .navbar-brand {
@@ -27,10 +26,6 @@ body {
   font-size: 3em;
   color: rgb(144, 74, 49)!important;
   margin-right: 50px;
-}
-
-.textflash1 {
-  margin-top:68px;
 }
 
 li  {
@@ -75,9 +70,9 @@ iframe {
   text-align: center;
   font-weight: 900;
   font-size: 2em;
-  background-color: rgba(144, 74, 49, 0.5);
+  background-color: rgba(144, 74, 49, 0.4);
   border-radius: 10px;
-  padding: 30px;
+  padding: 70px;
 }
 
 
@@ -217,6 +212,12 @@ p {
 .coralguardian {
   font-size: 20px;
 }
+  }
+
+@media screen and (max-width: 445px) {
+.navbar-brand {
+  display: none;
+ }
   }
 
 
