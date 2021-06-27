@@ -1,9 +1,16 @@
 body {
   background-image: url(barriere_de_corail.webp);
-  background-size: cover;
+  background-size: contain;
   font-family: 'Indie Flower', cursive;
   line-height: 1,3;
   
+}
+
+.container {
+  width:100vw;
+  height:100vh;
+ 
+
 }
 
 .navbar {
@@ -38,10 +45,7 @@ color: rgb(189, 87, 87) !important ;
 
 }
 
-.container {
-  width:100vw;
-  height:100vh;
-}
+
 
 .leCorail,.sonUtilite,.lesMenaces,.commentLeSauver {
   background-color: rgba(255, 255, 255,0.8);
@@ -244,6 +248,12 @@ p {
   border: 10px white solid;  
 }
 
+@media screen and (min-width:700px) {
+  .img41,.img42,.img43,.img44,.img45,.img46 {
+  height:150px;
+  width: 150px;
+  }
+    }
 .row {
   --bs-gutter-x: 0px;
 }
@@ -253,13 +263,6 @@ p {
   justify-content: center;
   align-items: center;
 }
-
-@media screen and (min-width:700px) {
-  .img41,.img42,.img43,.img44,.img45,.img46 {
-  height:150px;
-  width: 150px;
-  }
-    }
 
 .linkgive {
   color:rgb(144, 74, 49 ); 
