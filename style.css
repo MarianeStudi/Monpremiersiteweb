@@ -320,3 +320,15 @@ header > .row > nav .active {
 .svg {
   margin: 4px;
 }
+
+.signature {
+  background-color: white; 
+  color: black;
+  text-align: center;
+  font-size: 0.8em;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.sign {
+margin-top: 10px;
+}
