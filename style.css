@@ -223,8 +223,6 @@ p {
   color: rgba(144, 74, 49, 0.8);
 }
 
-
-
 @media screen and (max-width: 500px) {
 .coralguardian {
   font-size: 20px;
