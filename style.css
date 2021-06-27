@@ -13,21 +13,20 @@ body {
 }
 
 .navbar {
-  border-radius: 10px;
   padding-top: 0px;
  
 }
 
 .navbar-nav {
   align-items: center;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .navbar-brand {
   font-weight: 900;
   font-size: 3em;
   color: rgb(144, 74, 49)!important;
-  margin-right: 100px;
+  margin-right: 50px;
 }
 
 .textflash1 {
@@ -37,13 +36,6 @@ body {
 li  {
   display: inline;
   padding: 10px;
-}
-
-.nav-link {
-  display: flex;
-  justify-content: end;
-  align-items: flex-end;
-  
 }
 
 .nav-link:hover {
@@ -318,6 +310,10 @@ p {
 
 header > .row > nav .active {
   color: darkcyan !important;
-  font-weight: bold;
+  font-weight: 900;
+ font-size: 2em;
 }
 
+.svg {
+  margin: 4px;
+}
