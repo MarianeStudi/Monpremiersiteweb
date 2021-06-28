@@ -1,8 +1,15 @@
 body {
   background-image: url(barriere_de_corail.webp);
-  background-size: contain;
   font-family: 'Indie Flower', cursive; 
 }
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url(barriere_de_corail.webp);
+    background-size: contain;
+  }
+    }
+
 
 @media screen and (min-width: 1200px) {
   .navbar {
@@ -70,6 +77,7 @@ color: rgb(189, 87, 87)!important;
   font-size: 2em;
   background-color: rgba(144, 74, 49, 0.4);
   padding: 70px;
+  
 }
 
 
