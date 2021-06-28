@@ -11,13 +11,7 @@ body {
     background-size: contain;
   }
 
-.buttonForm {
-  background-color: rgba(144, 74, 49, 0.5);
-  border:solid 3px rgba(255, 255, 255,0.8);
-  border-radius: 50%;
-  color: rgba(255, 255, 255, 0.7);
- 
-}
+
 
 /**Header**/
 
@@ -74,6 +68,14 @@ color: rgb(189, 87, 87)!important;
 .btnLink:hover {
   color: rgba(144, 74, 49, 0.4);
   background-color: white;
+}
+
+.buttonForm {
+  background-color: rgba(144, 74, 49, 0.5);
+  border:solid 3px rgba(255, 255, 255,0.8);
+  border-radius: 50%;
+  color: rgba(255, 255, 255, 0.7);
+ 
 }
 
 header > .row > nav .active {
@@ -280,6 +282,7 @@ p {
   font-size: 2em;
 }
 
+
 .bi {
   color:rgb(144, 74, 49 ); 
 }
@@ -287,7 +290,6 @@ p {
 .alignementtitre {
   text-align: left;
 }
-
 
       
 .lienAssos {
