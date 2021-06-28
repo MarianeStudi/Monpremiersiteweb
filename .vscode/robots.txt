@@ -1,3 +1,6 @@
 User-Agent: *
 
+Disallow: /Ma-copie.docx/
+
+
 Sitemap: https://marianestudi.github.io/sauvons-le-corail/sitemap_index.xml
