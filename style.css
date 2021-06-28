@@ -8,13 +8,10 @@ body {
     background-image: url(barriere_de_corail.webp);
     background-size: contain;
   }
-    }
-
-
-@media screen and (min-width: 1200px) {
   .navbar {
     height: 70px;
   }
+
     }
 
 .navbar-nav {
@@ -74,10 +71,21 @@ color: rgb(189, 87, 87)!important;
   color: azure;
   text-align: center;
   font-weight: 900;
-  font-size: 2em;
-  background-color: rgba(144, 74, 49, 0.4);
-  padding: 70px;
+  background-color: rgba(144, 74, 49, 0.5);
+  font-size: 1em;
+  padding: 30px;
+}
+
+@media screen and (min-width: 770px) {
+  .textflash {
+    padding: 70px;
+    font-size: 2em;
   
+  }
+    }
+
+.textflash1 {
+  padding-top: 150px;
 }
 
 
@@ -109,6 +117,7 @@ p {
   margin-top: 2px;
   margin-bottom: 10px;
 }
+
 .row {
 --bs-gutter-x: 0px;
 }
@@ -159,6 +168,9 @@ p {
   color:rgb(189, 87, 87);
   background-color: rgba(255, 255, 255, 0.7);
   border:rgb(189, 87, 87) solid 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btnLink {
