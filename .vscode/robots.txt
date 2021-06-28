@@ -1,0 +1,3 @@
+User-Agent: *
+
+Sitemap: https://marianestudi.github.io/sauvons-le-corail/sitemap_index.xml
